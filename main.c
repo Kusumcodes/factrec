@@ -6,8 +6,8 @@ int factrec(int N)
     if(N == 0 || N == 1)
         return 1;
 
-    return N*factrec(N-1);
-}
+    return N*factrec(N-1); // factorial
+} 
 
 int main()
 {
